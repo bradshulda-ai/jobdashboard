@@ -1,0 +1,76 @@
+{
+  "rows": [
+    {
+      "id": "deputy-cio-uvm",
+      "date_first_seen": "2026-07-16",
+      "last_updated": "2026-07-17",
+      "title": "Deputy CIO",
+      "org": "University of Vermont",
+      "location": "Burlington, VT",
+      "salary": "$205,000 - $230,000",
+      "section": "strong_match",
+      "status": "active",
+      "fit_score": 8,
+      "take": "Strong client-services angle and institution-wide scope, a real step up from a single-school role at Tuck.",
+      "verification_status": "verified open on Workday 2026-07-17",
+      "deadline": "2026-07-22",
+      "url": "https://example.com/uvm-deputy-cio",
+      "notes": "Exec-ed certificate from Tuck is a direct hook."
+    },
+    {
+      "id": "dir-itsm-bu",
+      "date_first_seen": "2026-07-10",
+      "last_updated": "2026-07-15",
+      "title": "Director of IT Service Management",
+      "org": "Boston University",
+      "location": "Boston, MA",
+      "salary": "⚠️ Salary not listed",
+      "section": "worth_a_look",
+      "status": "active",
+      "fit_score": 6,
+      "take": "ITIL and ServiceNow background line up well, but reporting line is ambiguous in the posting.",
+      "verification_status": "verified open on Workday 2026-07-15",
+      "url": "https://example.com/bu-itsm"
+    },
+    {
+      "id": "mgr-it-support-anthropic",
+      "date_first_seen": "2026-07-10",
+      "last_updated": "2026-07-10",
+      "title": "Manager, IT Support & Operations",
+      "org": "Anthropic",
+      "location": "San Francisco, CA",
+      "salary": "$210,000 - $250,000",
+      "section": "unicorn_pick",
+      "status": "active",
+      "fit_score": 7,
+      "take": "Manager-level but clears the new $200K unicorn bar; strong service-desk overlap, culture is the draw.",
+      "verification_status": "verified open on Greenhouse 2026-07-17",
+      "url": "https://example.com/anthropic-it-manager"
+    },
+    {
+      "id": "dir-service-delivery-cmu",
+      "date_first_seen": "2026-07-02",
+      "last_updated": "2026-07-10",
+      "title": "Director, Service Delivery & AI Enablement",
+      "org": "Carnegie Mellon University",
+      "location": "Pittsburgh, PA",
+      "salary": "$120,000 - $150,000",
+      "section": "strong_match",
+      "status": "below_comp_floor",
+      "fit_score": null,
+      "verification_status": "verified open on Workday 2026-07-10",
+      "url": "https://example.com/cmu-service-delivery"
+    },
+    {
+      "id": "vp-it-oldu",
+      "date_first_seen": "2026-06-20",
+      "last_updated": "2026-07-05",
+      "title": "VP of IT",
+      "org": "Old State University",
+      "location": "Columbus, OH",
+      "status": "closed",
+      "verification_status": "posting removed, treated as closed 2026-07-05",
+      "url": "https://example.com/oldstate-vp-it"
+    }
+  ]
+}

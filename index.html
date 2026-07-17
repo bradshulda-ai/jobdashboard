@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Job Search Dashboard</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <h1>Job Search Dashboard</h1>
+  <div class="meta">
+    <span id="lastUpdated">—</span>
+    <button id="refreshBtn" class="btn-ghost">Refresh</button>
+  </div>
+</header>
+
+<div class="controls">
+  <input id="searchInput" type="search" placeholder="Search title or organization…" />
+  <label class="control">
+    Min fit
+    <select id="minFit">
+      <option value="0">Any</option>
+      <option value="6">6+</option>
+      <option value="7">7+</option>
+      <option value="8">8+</option>
+      <option value="9">9+</option>
+    </select>
+  </label>
+  <label class="control">
+    <input type="checkbox" id="salaryListedOnly" />
+    Salary listed only
+  </label>
+  <input id="locationInput" type="text" placeholder="Location contains…" />
+  <label class="control">
+    Sort
+    <select id="sortBy">
+      <option value="newest">Newest first</option>
+      <option value="fit">Fit score</option>
+    </select>
+  </label>
+</div>
+
+<nav class="tabs" id="tabs">
+  <button class="tab active" data-tab="strong_match">Strong Matches</button>
+  <button class="tab" data-tab="worth_a_look">Worth a Look</button>
+  <button class="tab" data-tab="unicorn_pick">🦄 Unicorn Picks</button>
+  <button class="tab" data-tab="archive">Archive</button>
+</nav>
+
+<main id="cardList" class="card-list">
+  <p class="empty-state">Loading…</p>
+</main>
+
+<script src="config.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
